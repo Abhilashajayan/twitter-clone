@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/8f8c00068c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+</head>
+<body>
+    <div class="container-xxl">
+           <!-- xs NAV BAR -->
+           <nav class=" bg-light xs-nav fixed-bottom    d-sm-none">
+            <div class="container-fluid">
+                <div class="row h-50">
+                    <div class="col-3">
+                        <span><i class="fa-solid fa-house fs-4 p-3"></i></span>
+                    </div>
+                    <div class="col-3">
+                    <span><i class="fa-solid fa-magnifying-glass fs-4 p-3 "></i></span>
+                    </div>
+                    <div class="col-3">
+                    <span><i class="fa-solid fa-bell fs-4 p-3"></i></span>
+                    </div>
+                    <div class="col-3 ">
+                        <span><i class="fa-solid fa-envelope fs-4 p-3"></i></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="d-none col-sm-2 d-sm-block col-lg-1 col-xl-2 border-end">
+                
+                <div class="left-nav-section position-sticky  align-items-end align-items-xl-start">
+                    <div>
+                        <i class="fa-brands fa-twitter fs-3 mt-3 text-primary"></i>
+                    </div>
+                    <div class="my-3">
+                        <i class="fa-solid fa-house fs-4"></i>
+                       
+                        <span class="fs-5 d-none d-xl-inline mx-3">Home</span>
+                    </div>
+                    <div class="my-3">
+                        <i class="fa-solid fa-search fs-4"></i>
+                       
+                        
+                        <span class="fs-5 d-none d-xl-inline mx-3">Search</span>
+                    </div>
+                    <div  class="my-3">
+                        <i class="fa-solid fa-bell fs-4"></i>
+                        <span class="fs-5 d-none d-xl-inline mx-3">Notification</span>
+                    </div>
+                    <div  class="my-3"> 
+                        <i class="fa-solid fa-envelope fs-4"></i>
+                        <span class="fs-5 d-none d-xl-inline mx-3">Message</span>
+                    </div>
+                    <div  class="my-3">
+                        <i class="fa-solid fa-bookmark fs-4"></i>
+                        <span class="fs-5 d-none d-xl-inline mx-3">Bookmark</span>
+                    </div>
+                    <div  class="my-3">
+                        <i class="fa-solid fa-list fs-4"></i>
+                        <span class="fs-5 d-none d-xl-inline mx-3">List</span>
+                    </div >
+                     <div class="my-3">
+                        <i class="fa-solid fa-user fs-4"></i>
+                        <span class="fs-5 d-none d-xl-inline mx-3">Profile</span>
+                    </div>
+                    <button type="button" class="btn btn-primary col-12 mt-3 py-3 px-5 d-none d-xl-block">
+                        <b>Tweet</b>
+                    </button>
+
+                    <div class="profile-icon">
+                        <img src="DEAA360A-7FD5-4DF5-91C7-D4ADF8A89111_1_105_c.jpeg" alt="" class="img-fluid">
+                    </div>
+
+
+                </div>
+
+            </div>
+            <!-- main section -->
+            <div class="col-10 col-lg-7 col-xl-6">
+                <div class="row align-items-centre mt-3">
+                    <div class="col">
+                        <strong class="fs-4">Home</strong>
+                    </div>
+                   
+                    <div class="col text-end">
+                        <i class="fa-solid fa-bell fs-4"></i>
+                    </div>
+                </div>
+                <div class="row align-items-ceter mt-3">
+                    <div class="d-flex justify-content-around align-items-center">
+                        <div class="For-you-content">
+                            <h6 class="my-3">For you</h6>
+                        </div>
+                        <h6 class="my-3" id="following">Following</h6>
+
+                    </div>
+                </div>
+                <div class="row mt-4 border p-3">
+                    <div class="col-2">
+                        <img src="image/myimage.jpeg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-10">
+                        <textarea class="form-control" id="input"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="tweet mt-5" >
+                            <div class="row">
+                                <div class="col-2 col-xl-1" >
+                                    <img src="image/myimage.jpeg" alt="" class="img-fluid" width="80%" height="80%">
+                                </div>
+                                <div class="col-10 col-xl-11">
+                                    <div>
+                                        <strong>Abhilash</strong>
+                                        <span>@abhilashajayan</span>
+                                    </div>
+                                    <p>
+                                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.  
+                                    </p>
+                                    <div><img src="https://pbs.twimg.com/media/Fv3BBc6aUAADRmk?format=jpg&name=medium" class="img-fluid" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tweet mt-5 border-right border-bottom" >
+                            <div class="row">
+                                <div class="col-2 col-xl-1 " >
+                                    <img src="image/myimage.jpeg" alt="" class="img-fluid" width="80%" height="80%">
+                                </div>
+                                <div class="col-10 col-xl-11">
+                                    <div>
+                                        <strong>Abhilash</strong>
+                                        <span>@abhilashajayan</span>
+                                    </div>
+                                    <p>
+                                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.  
+                                    </p>
+                                    <div><img src="https://pbs.twimg.com/media/Fv6CfAgWwAEy14m?format=jpg&name=small" class="img-fluid" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tweet mt-5" >
+                            <div class="row">
+                                <div class="col-2 col-xl-1 " >
+                                    <img src="image/myimage.jpeg" alt="" class="img-fluid" width="80%" height="80%">
+                                </div>
+                                <div class="col-10 col-xl-11">
+                                    <div>
+                                        <strong>Abhilash</strong>
+                                        <span>@abhilashajayan</span>
+                                    </div>
+                                    <p>
+                                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.  
+                                    </p>
+                                    <div><img src="https://pbs.twimg.com/media/Fv2u4-dagAgStFQ?format=jpg&name=small" class="img-fluid" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tweet mt-5" >
+                            <div class="row">
+                                <div class="col-2 " >
+                                    <img src="image/myimage.jpeg" alt="" class="img-fluid" width="80%" height="80%">
+                                </div>
+                                <div class="col-10">
+                                    <div>
+                                        <strong>Abhilash</strong>
+                                        <span>@abhilashajayan</span>
+                                    </div>
+                                    <p>
+                                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.  
+                                    </p>
+                                    <div><img src="https://pbs.twimg.com/media/Fv2dd02aQAANCzk?format=jpg&name=small" class="img-fluid" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-lg-4 mt-4 d-none d-lg-block " id="bot">
+               
+                <div class="position-sticky" style="top: 0;" id="bott">
+                    <div>
+                        <input type="text" class="form-control" id="inputs" placeholder="Search-twitter">
+                    </div>
+                    <div class="happening-box mt-5 p-3" id="">
+                        <div id="bott">
+                            <i class="bi-brightness-high-fill" id="toggleDark"></i>
+                            <h3 class="fs-3">Whats Happening</h3>
+                        </div>
+                        <div class="row align-items-center my-3" id="bot">
+                            <div class="col-9 ">
+                                <div class="text" id="bot">
+                                    <div><small>Business & finance . Live</small></div>
+                                    <div><strong>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</strong></div>
+                                    <div class="fs-6">Promoted by Disney+ Hotstar</div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <img src="https://placekitten.com/400/300" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                        <div class="row align-items-center my-3">
+                            <div class="col-9 ">
+                                <div class="text">
+                                    <div><small>Business & finance . Live</small></div>
+                                    <div><strong>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</strong></div>
+                                    <div class="fs-6">Promoted by Disney+ Hotstar</div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <img src="https://placekitten.com/400/300" class="img-fluid" alt="">
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+
+        <script src="index.html"/>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>

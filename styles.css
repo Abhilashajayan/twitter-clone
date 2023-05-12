@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.profile-icon{
+    width: 35px;
+    height: 35px;
+    
+}
+.profile-icon img{
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.left-nav-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    top: 0;
+    
+   
+}
+.profile-icon{
+    position: absolute;
+    bottom: 20px;
+
+}
+.happening-box{
+    background-color: white;
+    border-radius: 20px;
+}
+.For-you-content{
+    border-bottom: 5px solid #1C9BEF;
+}
+.form-control{
+    border: none;
+}
+
+
+body {
+ 
+    background-color: white;
+    color: black;
+    
+  }
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+  .icon{
+    border: 0;
+
+  }
+
+  /* .bot{
+    background-color: white;
+    color: black;
+  } */
